@@ -25,15 +25,15 @@
 <script type="text/javascript">
 	var ad = '{$ad|@addcslashes:'\''}';
 	var lastMove = '';
-	var saveOK = '{l s='Module position saved' js=1}';
-	var confirmClose = '{l s='Are you sure? If you close this window, its position will not be saved'  js=1}';
-	var close = '{l s='Close' js=1}';
-	var cancel = '{l s='Cancel' js=1}';
-	var confirm = '{l s='Confirm' js=1}';
-	var add = '{l s='Add this module' js=1}';
-	var unableToUnregisterHook = '{l s='Unable to unregister hook' js=1}';
-	var unableToSaveModulePosition = '{l s='Unable to save module position' js=1}';
-	var loadFail = '{l s='Failed to load module list' js=1}';
+	var saveOK = '{l s='Modulposition sparad' js=1}';
+	var confirmClose = '{l s='är du säker på att du vill stänga detta fönster, dess position kommer inte att sparas'  js=1}';
+	var close = '{l s='Stäng' js=1}';
+	var cancel = '{l s='Avbryt' js=1}';
+	var confirm = '{l s='Bekräfta' js=1}';
+	var add = '{l s='Lägg till denna modul' js=1}';
+	var unableToUnregisterHook = '{l s='Kan inte avkroka denna krok' js=1}';
+	var unableToSaveModulePosition = '{l s='Kan inte spara modulen position' js=1}';
+	var loadFail = '{l s='Misslyckades att ladda modullistan' js=1}';
 </script>
 
 <div style=" background-color:000; background-color: rgba(0,0,0, 0.7); border-bottom: 1px solid #000; width:100%;height:45px; padding:5px 10px; position:fixed;top:0;left:0;z-index:9999;">
@@ -49,8 +49,8 @@
 			value="{$hook_name}" />
 	{/foreach}
 <div >
-	<input type="submit" value="{l s='Save'}" name="saveHook" id="saveLiveEdit" class="exclusive" style="color:#fff;float:right; text-shadow: 0 -1px 0 #157402; margin-right:20px;">
-	<input type="submit" value="{l s='Close Live edit'}" id="closeLiveEdit" class="button" style="background: #333 none; color:#fff; border:1px solid #000; float:right; margin-right:10px;">
+	<input type="submit" value="{l s='Spara'}" name="saveHook" id="saveLiveEdit" class="exclusive" style="color:#fff;float:right; text-shadow: 0 -1px 0 #157402; margin-right:20px;">
+	<input type="submit" value="{l s='Stäng liveredigeraren'}" id="closeLiveEdit" class="button" style="background: #333 none; color:#fff; border:1px solid #000; float:right; margin-right:10px;">
 
 </div>
 </form>
